@@ -3,6 +3,7 @@
 <?php
 
 header('Access-Control-Allow-Origin');
+// its my current locahost port when i run my npm start command
 header("Access-Control-Allow-Origin: http://localhost:3000");
 header("Access-Control-Allow-Methods: POST, GET, OPTIONS");
 header("Access-Control-Allow-Headers: Content-Type");
